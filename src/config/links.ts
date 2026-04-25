@@ -4,6 +4,7 @@ export interface Link {
   url: string;
   icon?: string;
   description?: string;
+  internal?: boolean; // Set to true for internal routes
 }
 
 export interface SocialLink {
@@ -14,6 +15,14 @@ export interface SocialLink {
 }
 
 export const links: Link[] = [
+  {
+    id: 'prompts',
+    title: 'Prompts',
+    url: '/prompts',
+    description: 'Pre-made prompts for AI tools',
+    icon: 'buttons/ai.svg',
+    internal: true,
+  },
   {
     id: 'pex',
     title: 'Pex (App Store)',

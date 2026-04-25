@@ -1,3 +1,5 @@
+import { useTranslation } from 'react-i18next';
+import { Link as RouterLink } from 'react-router-dom';
 import { Link } from '../config/links';
 
 interface LinkButtonProps {
@@ -5,26 +7,49 @@ interface LinkButtonProps {
 }
 
 export function LinkButton({ link }: LinkButtonProps) {
-  return (
-    <a
-      href={link.url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="w-full px-6 py-4 bg-gradient-to-r from-slate-700 to-slate-800 hover:from-slate-800 hover:to-slate-900 text-white font-semibold rounded-lg transition-all duration-200 transform hover:scale-105 active:scale-95 shadow-md hover:shadow-lg flex items-center justify-between gap-4"
-    >
+  const { t } = useTranslation();
+  
+  // Try to get translated title and description
+  const translationKey = `links.${link.id}`;
+  const translatedTitle = t(`${translationKey}.title`, link.title);
+  const translatedDescription = link.description ? t(`${translationKey}.description`, link.description) : undefined;
+
+  const buttonContent = (
+    <>
       <div className="flex flex-col items-start gap-1">
-        <span className="text-lg">{link.title}</span>
-        {link.description && (
-          <span className="text-sm opacity-90 font-normal">{link.description}</span>
+        <span className="text-lg">{translatedTitle}</span>
+        {translatedDescription && (
+          <span className="text-sm opacity-90 font-normal">{translatedDescription}</span>
         )}
       </div>
       {link.icon && (
         <img
           src={link.icon}
-          alt={link.title}
+          alt={translatedTitle}
           className="w-12 h-12 rounded object-cover flex-shrink-0 shadow-sm"
         />
       )}
+    </>
+  );
+
+  const buttonClasses = "w-full px-6 py-4 bg-gradient-to-r from-slate-700 to-slate-800 hover:from-slate-800 hover:to-slate-900 text-white font-semibold rounded-lg transition-all duration-200 transform hover:scale-105 active:scale-95 shadow-md hover:shadow-lg flex items-center justify-between gap-4";
+
+  if (link.internal) {
+    return (
+      <RouterLink to={link.url} className={buttonClasses}>
+        {buttonContent}
+      </RouterLink>
+    );
+  }
+
+  return (
+    <a
+      href={link.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={buttonClasses}
+    >
+      {buttonContent}
     </a>
   );
 }

@@ -1,0 +1,56 @@
+{
+  "common": {
+    "copyright": "© 2026 Gabriel Targon",
+    "back": "Voltar",
+    "copy": "Copiar",
+    "copied": "Copiado!"
+  },
+  "profile": {
+    "name": "Gabriel Targon",
+    "subtitle": "Desenvolvedor & Criador",
+    "bio": "Criando experiências digitais incríveis"
+  },
+  "links": {
+    "prompts": {
+      "title": "Prompts",
+      "description": "Prompts prontos para ferramentas de IA"
+    },
+    "pex": {
+      "title": "Pex (App Store)",
+      "description": "Meu aplicativo de IA Tamagotchi"
+    }
+  },
+  "prompts": {
+    "title": "Prompts de IA",
+    "description": "Aqui você encontra alguns prompts prontos para utilizar no seu dia a dia",
+    "promptLabel": "Prompt",
+    "chatgpt-hairstyle": {
+      "title": "Análise de Penteado",
+      "description": "Suba uma foto sua, cole esse prompt e deixe ele analisar penteados e encontrar as melhores combinações para qualquer retrato seu.",
+      "text": "Crie um gráfico de análise de penteado usando este retrato. Mostre comparações de penteados lado a lado destacando quais penteados combinam melhor com o assunto. Faça visual em primeiro lugar, com apenas rótulos curtos e sem parágrafos."
+    },
+    "chatgpt-color-analysis": {
+      "title": "Análise de Cor Pessoal",
+      "description": "Suba uma foto sua, cole esse prompt e deixe ele analisar cores e encontrar as melhores combinações para qualquer retrato seu.",
+      "text": "Usando este retrato, crie uma análise de cor pessoal com um diagrama primeiro. Mostre quais cores de roupa combinam bem com o assunto através de comparação visual. Mantenha o texto mínimo e evite parágrafos."
+    },
+    "chatgpt-action-figure": {
+      "title": "Boneco de Ação",
+      "description": "Transforme-se em um boneco de ação personalizado. Obtenha um design de brinquedo profissional com detalhes personalizados.",
+      "text": "Desenhe um boneco de ação desta pessoa na foto, o brinquedo deve ser figura inteira usando as mesmas roupas, no topo da caixa escrito [SEU NOME]. Os acessórios do boneco ao lado: [ACESSÓRIOS QUE VOCÊ QUER]. Este boneco deve parecer um brinquedo premium e tudo deve estar dentro do plástico."
+    },
+    "chatgpt-isometric-studio": {
+      "title": "Estúdio de Música Isométrico",
+      "description": "Crie uma ilustração isométrica onírica do seu estúdio de música pessoal dentro de um sintetizador.",
+      "text": "Ilustração 3D isométrica minimalista de um estúdio de música aconchegante, feliz e onírico dentro de um sintetizador. O exterior apresenta detalhes clássicos e elementos futuristas, todos renderizados em tons terrosos com cores vibrantese bonitas.\n\nDentro do sintetizador, uma pessoa jovem como a foto que você enviou, sentada desenhando em um tablet.\n\nAo lado dele há uma prateleira vintage com [ITENS QUE VOCÊ QUER], adicionando um efeito brilhante ao que está próximo. Toda a cena é renderizada em estilo quente com sombras. E iluminação dramática, perspectiva sutil e vibrações aconchegantes - perfeito para fãs de arte digital e futurista, com um toque 3D leve e uma sensação ligeiramente plastificada em tudo - toda a cena deve parecer um diorama."
+    }
+  },
+  "tags": {
+    "chatgpt": "ChatGPT",
+    "claude": "Claude",
+    "gemini": "Gemini",
+    "image": "Imagem",
+    "text": "Texto",
+    "video": "Vídeo"
+  }
+}

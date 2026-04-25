@@ -1,11 +1,22 @@
+import { useTranslation } from 'react-i18next';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { links, socialLinks } from './config/links';
 import { LinkButton } from './components/LinkButton';
 import { Profile } from './components/Profile';
 import { SocialLinks } from './components/SocialLinks';
+import { LanguageSwitcher } from './components/LanguageSwitcher';
+import { LanguageProvider } from './context/LanguageContext';
+import { Prompts } from './components/Prompts';
 
-export default function App() {
+function HomePage() {
+  const { t } = useTranslation();
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100 flex flex-col">
+      <div className="absolute top-4 right-4">
+        <LanguageSwitcher />
+      </div>
+
       <div className="max-w-md mx-auto px-4 py-12 sm:py-20 flex-1">
         <Profile />
         
@@ -18,8 +29,24 @@ export default function App() {
 
       <footer className="pb-8">
         <SocialLinks links={socialLinks} />
-        <p className="text-center text-sm text-gray-400 mt-8">© 2026 Gabriel Targon</p>
+        <p className="text-center text-sm text-gray-400 mt-8">{t('common.copyright')}</p>
       </footer>
     </div>
+  );
+}
+
+export default function App() {
+  return (
+    <LanguageProvider>
+      <BrowserRouter>
+        <div className="absolute top-4 right-4 z-50">
+          <LanguageSwitcher />
+        </div>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/prompts" element={<Prompts />} />
+        </Routes>
+      </BrowserRouter>
+    </LanguageProvider>
   );
 }
