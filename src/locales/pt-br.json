@@ -1,0 +1,16 @@
+{
+  "common": {
+    "copyright": "© 2026 Gabriel Targon"
+  },
+  "profile": {
+    "name": "Gabriel Targon",
+    "subtitle": "Desenvolvedor & Criador",
+    "bio": "Criando experiências digitais incríveis"
+  },
+  "links": {
+    "pex": {
+      "title": "Pex (App Store)",
+      "description": "Meu aplicativo de IA Tamagotchi"
+    }
+  }
+}

@@ -1,6 +1,8 @@
+import { useTranslation } from 'react-i18next';
 import { profile } from '../config/links';
 
 export function Profile() {
+  const { t } = useTranslation();
   const initials = profile.name.split(' ').map(n => n[0]).join('');
 
   return (
@@ -18,9 +20,9 @@ export function Profile() {
           </div>
         )}
       </div>
-      <h1 className="text-4xl font-bold text-gray-900 mb-2">{profile.name}</h1>
-      <p className="text-xl text-gray-600 mb-2">{profile.subtitle}</p>
-      <p className="text-gray-500">{profile.bio}</p>
+      <h1 className="text-4xl font-bold text-gray-900 mb-2">{t('profile.name')}</h1>
+      <p className="text-xl text-gray-600 mb-2">{t('profile.subtitle')}</p>
+      <p className="text-gray-500">{t('profile.bio')}</p>
     </div>
   );
 }
