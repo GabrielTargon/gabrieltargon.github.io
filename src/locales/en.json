@@ -1,6 +1,9 @@
 {
   "common": {
-    "copyright": "© 2026 Gabriel Targon"
+    "copyright": "© 2026 Gabriel Targon",
+    "back": "Back",
+    "copy": "Copy",
+    "copied": "Copied!"
   },
   "profile": {
     "name": "Gabriel Targon",
@@ -8,9 +11,46 @@
     "bio": "Building awesome digital experiences"
   },
   "links": {
+    "prompts": {
+      "title": "Prompts",
+      "description": "Pre-made prompts for AI tools"
+    },
     "pex": {
       "title": "Pex (App Store)",
       "description": "My tamagotchi AI app"
     }
+  },
+  "prompts": {
+    "title": "AI Prompts",
+    "description": "Here you'll find some ready-to-use prompts for your everyday work",
+    "promptLabel": "Prompt",
+    "chatgpt-hairstyle": {
+      "title": "Hairstyle Analysis",
+      "description": "Upload a photo of yourself, paste this prompt and let it analyze hairstyles and find the best combinations for your portrait.",
+      "text": "Create a hairstyle analysis chart using this portrait. Show side-by-side hairstyle comparisons to highlight which hairstyles suit the subject best. Make it visual first, with only short labels and no paragraphs."
+    },
+    "chatgpt-color-analysis": {
+      "title": "Personal Color Analysis",
+      "description": "Upload a photo of yourself, paste this prompt and let it analyze colors and find the best combinations for your portrait.",
+      "text": "Using this portrait, create a personal color analysis with a diagram first. Show which clothing colors suit the subject well through visual comparison. Keep the text minimal and avoid paragraphs."
+    },
+    "chatgpt-action-figure": {
+      "title": "Action Figure",
+      "description": "Transform yourself into a custom action figure. Get a professional toy design with personalized details.",
+      "text": "Draw an action figure of this person in the photo, the toy should be full figure wearing the same clothes, on the top of the box saying [YOUR NAME]. The accessories of the figure next to it: [ACCESSORIES THAT YOU WANT]. This figure should look like a premium toy and everything should be inside the plastic."
+    },
+    "chatgpt-isometric-studio": {
+      "title": "Isometric Music Studio",
+      "description": "Create a dreamy isometric illustration of your personal music studio inside a synthesizer.",
+      "text": "Minimalist isometric 3D illustration of a cozy, happy dreamy music studio inside a synthesizer. The exterior features classic details and futuristic elements, all rendered in earthy tones with vibrant, beautiful colors.\n\nInside the synthesizer, a young person like the photo that I send you, sits drawing on a tablet.\n\nNext to him is a vintage shelf with [ITEMS THAT YOU WANT], adds a brightening effect to what is nearby. The entire scene is rendered in a warm style with shadows. And dramatic lighting, subtle perspective and cozy vibes - perfect for fans of digital art and futuristic, with a light 3D touch and a slightly plasticized feel to everything the entire scene should resemble a diorama."
+    }
+  },
+  "tags": {
+    "chatgpt": "ChatGPT",
+    "claude": "Claude",
+    "gemini": "Gemini",
+    "image": "Image",
+    "text": "Text",
+    "video": "Video"
   }
 }

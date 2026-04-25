@@ -1,12 +1,14 @@
 import { useTranslation } from 'react-i18next';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { links, socialLinks } from './config/links';
 import { LinkButton } from './components/LinkButton';
 import { Profile } from './components/Profile';
 import { SocialLinks } from './components/SocialLinks';
 import { LanguageSwitcher } from './components/LanguageSwitcher';
 import { LanguageProvider } from './context/LanguageContext';
+import { Prompts } from './components/Prompts';
 
-function AppContent() {
+function HomePage() {
   const { t } = useTranslation();
 
   return (
@@ -36,7 +38,15 @@ function AppContent() {
 export default function App() {
   return (
     <LanguageProvider>
-      <AppContent />
+      <BrowserRouter>
+        <div className="absolute top-4 right-4 z-50">
+          <LanguageSwitcher />
+        </div>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/prompts" element={<Prompts />} />
+        </Routes>
+      </BrowserRouter>
     </LanguageProvider>
   );
 }
