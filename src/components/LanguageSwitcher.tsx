@@ -29,7 +29,7 @@ export function LanguageSwitcher() {
   }, []);
 
   const handleLanguageSelect = (code: string) => {
-    setLanguage(code);
+    setLanguage(code as 'en' | 'pt-BR');
     setIsOpen(false);
   };
 
