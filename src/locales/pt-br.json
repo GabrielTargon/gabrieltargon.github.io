@@ -3,7 +3,13 @@
     "copyright": "© 2026 Gabriel Targon",
     "back": "Voltar",
     "copy": "Copiar",
-    "copied": "Copiado!"
+    "copied": "Copiado!",
+    "all": "Todos",
+    "morePrompts": "Mais prompts",
+    "shareLink": "Copiar link",
+    "linkCopied": "Link copiado!",
+    "feminine": "Feminino",
+    "masculine": "Masculino"
   },
   "profile": {
     "name": "Gabriel Targon",
@@ -24,6 +30,18 @@
     "title": "Prompts de IA",
     "description": "Aqui você encontra alguns prompts prontos para utilizar no seu dia a dia",
     "promptLabel": "Prompt",
+    "uploadPhotoNotice": "Suba uma foto sua antes de usar esse prompt",
+    "chatgpt-no-pain-no-gain": {
+      "title": "No Pain, No Gain",
+      "description": "Transforme sua foto de academia em uma arte ilustrada divertida com mini versões chibi de você mesmo e frases motivacionais escritas à mão.",
+      "textFeminine": "Edite a imagem mantendo a foto original completamente inalterada — incluindo a pessoa, rosto, corpo, pose, iluminação e fundo de academia.\n\nAdicione várias pequenas \"mini versões\" fofas estilo chibi da pessoa ao redor da imagem. Cada mini personagem deve ter uma cabeça grande, expressões faciais marcantes e combinar com o penteado e o look.\n\nRetrate cada mini versão fazendo diferentes atividades de academia:\numa comemorando com os braços levantados\numa correndo com tênis de corrida\numa bebendo de um shaker\numa usando óculos esportivos de corrida\numa escalando perto da perna dela\n\nEnriqueça a imagem com rabiscos e anotações escritas à mão em tinta branca e rosa oceano, em estilo scrapbook. Inclua elementos como setas, estrelas, corações, brilhos e linhas rabiscadas.\n\nAdicione frases motivacionais de academia escritas à mão:\n\"lift strong\"\n\"stronger every rep\"\n\"no pain no gain\"\n\"sweat now, shine later\"\n\"progress over perfection\"\n\"train hard, stay soft\"\n\nO vibe geral deve ser divertido, enérgico e feminino.",
+      "textMasculine": "Edite a imagem mantendo a foto original completamente inalterada — incluindo a pessoa, rosto, corpo, pose, iluminação e fundo de academia.\n\nAdicione várias pequenas \"mini versões\" estilizadas estilo chibi da pessoa ao redor da imagem. Cada mini personagem deve ter uma cabeça levemente exagerada, expressões confiantes e combinar com o penteado e o look.\n\nRetrate cada mini versão fazendo diferentes atividades de academia:\numa se exaltando com uma pose forte e animada\numa correndo com intensidade\numa bebendo de um shaker\numa usando óculos de performance esportivo\numa escalando ou se agarrando perto da perna dele como um mini atleta determinado\n\nEnriqueça a imagem com rabiscos arrojados e anotações escritas à mão em tons de branco e azul escuro, em estilo dinâmico de sketchbook. Inclua elementos como setas pontiagudas, linhas de impacto, estrelas, raios e traços de esboço brutos.\n\nAdicione frases motivacionais de academia escritas à mão:\n\"lift heavy\"\n\"stronger every rep\"\n\"no excuses\"\n\"earn your strength\"\n\"progress over perfection\"\n\"stay disciplined\"\n\nO vibe geral deve ser poderoso, enérgico e determinado."
+    },
+    "chatgpt-child-and-actual": {
+      "title": "Eu Criança & Eu Hoje",
+      "description": "Crie um retrato fotorrealista emocionante com sua versão criança e sua versão atual, conectadas por um olhar calmo e repleto de sentimento.",
+      "text": "Crie uma foto com os seguintes detalhes:\nÀ esquerda: uma versão criança de mim olhando com um sorriso inocente para a direita, com [ANO DE NASCIMENTO] escrito acima, usando camiseta cinza claro e calça jeans azul.\nÀ direita: uma versão atual de mim (corresponda ao rosto) sentada com as mãos sob o queixo e olhando para a criança com um sorriso calmo, com \"2026\" escrito acima. Usando camiseta branca e calça jeans azul.\nFundo: estúdio simples e suave (fundo de estúdio)\nIluminação: suave, cinematográfica, quente (pode ser uma foto em preto e branco). Estilo: fotografia profissional, minimalista e emocional, com foco nos sentimentos e na comunicação visual entre as duas versões.\nFaça a foto parecer real, como um ensaio fotográfico verdadeiro.\nMantenha minhas características originais sem alterações.\nTamanho da foto: 4:5"
+    },
     "chatgpt-hairstyle": {
       "title": "Análise de Penteado",
       "description": "Suba uma foto sua, cole esse prompt e deixe ele analisar penteados e encontrar as melhores combinações para qualquer retrato seu.",
@@ -43,6 +61,11 @@
       "title": "Estúdio de Música Isométrico",
       "description": "Crie uma ilustração isométrica onírica do seu estúdio de música pessoal dentro de um sintetizador.",
       "text": "Ilustração 3D isométrica minimalista de um estúdio de música aconchegante, feliz e onírico dentro de um sintetizador. O exterior apresenta detalhes clássicos e elementos futuristas, todos renderizados em tons terrosos com cores vibrantese bonitas.\n\nDentro do sintetizador, uma pessoa jovem como a foto que você enviou, sentada desenhando em um tablet.\n\nAo lado dele há uma prateleira vintage com [ITENS QUE VOCÊ QUER], adicionando um efeito brilhante ao que está próximo. Toda a cena é renderizada em estilo quente com sombras. E iluminação dramática, perspectiva sutil e vibrações aconchegantes - perfeito para fãs de arte digital e futurista, com um toque 3D leve e uma sensação ligeiramente plastificada em tudo - toda a cena deve parecer um diorama."
+    },
+    "chatgpt-instagram-children-draw": {
+      "title": "Desenho Infantil de Giz de Cera",
+      "description": "Transforme qualquer foto em um charmoso desenho estilo giz de cera que parece ter sido feito por uma criança de 10 anos, cheio de detalhes fofos e brincalhões.",
+      "text": "Edite a imagem fornecida e reimagine toda a cena como um desenho estilo giz de cera. Simplifique os detalhes e faça parecer que foi desenhado por uma criança de 10 anos\nNão use as cores da imagem original. Dê a sensação de ter sido desenhado em uma folha de papel branco, com uma aparência muito fofa, brincalhona e inocente. Adicione elementos infantis encantadores como flores, doces, estrelas, nuvens e outros detalhes decorativos para realçar o charme lúdico\nMantenha o resultado geral adorável, colorido e cheio de inocência infantil."
     }
   },
   "tags": {

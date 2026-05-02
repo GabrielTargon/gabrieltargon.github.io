@@ -7,6 +7,7 @@ import { SocialLinks } from './components/SocialLinks';
 import { LanguageSwitcher } from './components/LanguageSwitcher';
 import { LanguageProvider } from './context/LanguageContext';
 import { Prompts } from './components/Prompts';
+import { PromptDetail } from './components/PromptDetail';
 
 function HomePage() {
   const { t } = useTranslation();
@@ -45,6 +46,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/prompts" element={<Prompts />} />
+          <Route path="/prompts/:id" element={<PromptDetail />} />
         </Routes>
       </BrowserRouter>
     </LanguageProvider>

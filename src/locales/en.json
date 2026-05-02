@@ -3,7 +3,13 @@
     "copyright": "© 2026 Gabriel Targon",
     "back": "Back",
     "copy": "Copy",
-    "copied": "Copied!"
+    "copied": "Copied!",
+    "all": "All",
+    "morePrompts": "More prompts",
+    "shareLink": "Copy link",
+    "linkCopied": "Link copied!",
+    "feminine": "Feminine",
+    "masculine": "Masculine"
   },
   "profile": {
     "name": "Gabriel Targon",
@@ -24,6 +30,18 @@
     "title": "AI Prompts",
     "description": "Here you'll find some ready-to-use prompts for your everyday work",
     "promptLabel": "Prompt",
+    "uploadPhotoNotice": "Upload a photo of yourself before using this prompt",
+    "chatgpt-no-pain-no-gain": {
+      "title": "No Pain, No Gain",
+      "description": "Transform your gym photo into a fun, illustrated artwork with chibi mini versions of yourself and motivational handwritten phrases.",
+      "textFeminine": "Edit the image while keeping the original photo completely unchanged — including the person, face, body, pose, lighting, and gym background.\n\nAdd multiple small, cute chibi-style \"mini versions\" of the person around the image. Each mini character should have a big head, expressive facial features, and match hairstyle and outfit.\n\nDepict each mini version doing different gym-related activities:\none cheering with arms raised\none running in running shoes\none drinking from a shaker bottle\none wearing sporty running glasses\none climbing near her leg\n\nEnhance the image with playful, hand-drawn doodles and handwritten notes in white and ocean pink ink, in a scrapbook style. Include elements like arrows, stars, hearts, sparkles, and sketchy lines.\n\nAdd cute, handwritten gym-themed motivational phrases:\n\"lift strong\"\n\"stronger every rep\"\n\"no pain no gain\"\n\"sweat now, shine later\"\n\"progress over perfection\"\n\"train hard, stay soft\"\n\nThe overall vibe should feel fun, energetic and feminine.",
+      "textMasculine": "Edit the image while keeping the original photo completely unchanged — including the person, face, body, pose, lighting, and gym background.\n\nAdd multiple small, stylized chibi-style \"mini versions\" of the person around the image. Each mini character should have a slightly exaggerated head, confident expressions, and match the hairstyle and outfit.\n\nDepict each mini version doing different gym-related activities:\none hyping up with a strong, pumped pose\none sprinting with intensity\none drinking from a shaker bottle\none wearing sporty performance sunglasses\none climbing or gripping near his leg like a determined mini athlete\n\nEnhance the image with bold, hand-drawn doodles and handwritten notes in white and deep blue tones, in a dynamic, sketchbook style. Include elements like sharp arrows, impact lines, stars, lightning bolts, and rough sketch accents.\n\nAdd strong, handwritten gym-themed motivational phrases:\n\"lift heavy\"\n\"stronger every rep\"\n\"no excuses\"\n\"earn your strength\"\n\"progress over perfection\"\n\"stay disciplined\"\n\nThe overall vibe should feel powerful, energetic, and driven."
+    },
+    "chatgpt-child-and-actual": {
+      "title": "Child & Present Me",
+      "description": "Create a stunning side-by-side photorealistic portrait of your child self and your present self, connected by a calm and emotional gaze.",
+      "text": "Create a picture with the following details:\nOn the left: a child version of me looking with an innocent smile to the right, with [YEAR OF BIRTH] written above wearing a light grey tshirt and blue jeans.\nOn the right: A present version of me (match face) sits with her hands under her chin and looks at the child with a calm smile, with \"2026\" written above. Wearing a white tshirt and blue jeans.\nStudio background: plain and soft (studio background)\nThe lighting: Soft, cinematic, warm (even a black-and-white photo). Style: Professional, minimal, emotional photography, focusing on feelings and visual communication between the two versions.\nMake the picture look so real like a real photoshoot.\nKeep my original features without changing.\nphoto size 4:5"
+    },
     "chatgpt-hairstyle": {
       "title": "Hairstyle Analysis",
       "description": "Upload a photo of yourself, paste this prompt and let it analyze hairstyles and find the best combinations for your portrait.",
@@ -43,6 +61,11 @@
       "title": "Isometric Music Studio",
       "description": "Create a dreamy isometric illustration of your personal music studio inside a synthesizer.",
       "text": "Minimalist isometric 3D illustration of a cozy, happy dreamy music studio inside a synthesizer. The exterior features classic details and futuristic elements, all rendered in earthy tones with vibrant, beautiful colors.\n\nInside the synthesizer, a young person like the photo that I send you, sits drawing on a tablet.\n\nNext to him is a vintage shelf with [ITEMS THAT YOU WANT], adds a brightening effect to what is nearby. The entire scene is rendered in a warm style with shadows. And dramatic lighting, subtle perspective and cozy vibes - perfect for fans of digital art and futuristic, with a light 3D touch and a slightly plasticized feel to everything the entire scene should resemble a diorama."
+    },
+    "chatgpt-instagram-children-draw": {
+      "title": "Children's Crayon Drawing",
+      "description": "Transform any photo into a charming crayon-style drawing that looks like it was made by a 10-year-old child, full of cute and playful details.",
+      "text": "Edit the provided image and reimagine the entire scene as a crayon-style drawing. Simplify the details and make it look like it was drawn by a 10-year-old child\nDo not use the original image's colors. Give it the feeling of being drawn on a sheet of white paper, with a very cute, playful, and innocent look. Add charming childlike elements such as flowers, candy, stars, clouds, and other sweet decorative details to enhance the whimsical feel\nKeep the overall result adorable, colorful, and full of childlike innocence."
     }
   },
   "tags": {
