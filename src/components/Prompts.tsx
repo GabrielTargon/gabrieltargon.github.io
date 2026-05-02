@@ -46,17 +46,6 @@ export function Prompts() {
       {/* Profile header */}
       <PageHeader />
 
-      {/* Header with back button */}
-      <div className="max-w-2xl mx-auto w-full px-4 py-3">
-        <Link
-          to="/"
-          className="inline-flex items-center gap-2 text-slate-700 hover:text-slate-900 font-medium transition-colors"
-        >
-          <span>←</span>
-          <span>{t('common.back')}</span>
-        </Link>
-      </div>
-
       {/* Main content */}
       <div className="max-w-2xl mx-auto w-full px-4 py-8 flex-1">
         <h1 className="text-4xl font-bold text-slate-900 mb-2">

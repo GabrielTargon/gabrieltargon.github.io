@@ -15,7 +15,7 @@ function HomePage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100 flex flex-col">
-      <PageHeader />
+      <PageHeader showProfile={false} showMenu={false} />
 
       <div className="max-w-md mx-auto px-4 py-12 sm:py-20 flex-1">
         <Profile />
