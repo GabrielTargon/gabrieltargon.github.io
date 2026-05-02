@@ -1,4 +1,8 @@
 {
+  "nav": {
+    "home": "Início",
+    "prompts": "Prompts"
+  },
   "common": {
     "copyright": "© 2026 Gabriel Targon",
     "back": "Voltar",
@@ -30,7 +34,7 @@
     "title": "Prompts de IA",
     "description": "Aqui você encontra alguns prompts prontos para utilizar no seu dia a dia",
     "promptLabel": "Prompt",
-    "uploadPhotoNotice": "Suba uma foto sua antes de usar esse prompt",
+    "uploadPhotoNotice": "Suba uma foto ao usar esse prompt",
     "chatgpt-no-pain-no-gain": {
       "title": "No Pain, No Gain",
       "description": "Transforme sua foto de academia em uma arte ilustrada divertida com mini versões chibi de você mesmo e frases motivacionais escritas à mão.",
@@ -44,12 +48,12 @@
     },
     "chatgpt-hairstyle": {
       "title": "Análise de Penteado",
-      "description": "Suba uma foto sua, cole esse prompt e deixe ele analisar penteados e encontrar as melhores combinações para qualquer retrato seu.",
+      "description": "Analise penteados e encontre as melhores combinações para qualquer retrato seu.",
       "text": "Crie um gráfico de análise de penteado usando este retrato. Mostre comparações de penteados lado a lado destacando quais penteados combinam melhor com o assunto. Faça visual em primeiro lugar, com apenas rótulos curtos e sem parágrafos."
     },
     "chatgpt-color-analysis": {
       "title": "Análise de Cor Pessoal",
-      "description": "Suba uma foto sua, cole esse prompt e deixe ele analisar cores e encontrar as melhores combinações para qualquer retrato seu.",
+      "description": "Analise cores e encontre as melhores combinações para qualquer retrato seu.",
       "text": "Usando este retrato, crie uma análise de cor pessoal com um diagrama primeiro. Mostre quais cores de roupa combinam bem com o assunto através de comparação visual. Mantenha o texto mínimo e evite parágrafos."
     },
     "chatgpt-action-figure": {

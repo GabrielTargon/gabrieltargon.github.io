@@ -1,4 +1,8 @@
 {
+  "nav": {
+    "home": "Home",
+    "prompts": "Prompts"
+  },
   "common": {
     "copyright": "© 2026 Gabriel Targon",
     "back": "Back",
@@ -30,7 +34,7 @@
     "title": "AI Prompts",
     "description": "Here you'll find some ready-to-use prompts for your everyday work",
     "promptLabel": "Prompt",
-    "uploadPhotoNotice": "Upload a photo of yourself before using this prompt",
+    "uploadPhotoNotice": "Upload a photo with this prompt",
     "chatgpt-no-pain-no-gain": {
       "title": "No Pain, No Gain",
       "description": "Transform your gym photo into a fun, illustrated artwork with chibi mini versions of yourself and motivational handwritten phrases.",
@@ -44,12 +48,12 @@
     },
     "chatgpt-hairstyle": {
       "title": "Hairstyle Analysis",
-      "description": "Upload a photo of yourself, paste this prompt and let it analyze hairstyles and find the best combinations for your portrait.",
+      "description": "Analyze hairstyles and find the best combinations for your portrait.",
       "text": "Create a hairstyle analysis chart using this portrait. Show side-by-side hairstyle comparisons to highlight which hairstyles suit the subject best. Make it visual first, with only short labels and no paragraphs."
     },
     "chatgpt-color-analysis": {
       "title": "Personal Color Analysis",
-      "description": "Upload a photo of yourself, paste this prompt and let it analyze colors and find the best combinations for your portrait.",
+      "description": "Analyze colors and find the best combinations for your portrait.",
       "text": "Using this portrait, create a personal color analysis with a diagram first. Show which clothing colors suit the subject well through visual comparison. Keep the text minimal and avoid paragraphs."
     },
     "chatgpt-action-figure": {
