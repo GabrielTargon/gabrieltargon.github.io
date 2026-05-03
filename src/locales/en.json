@@ -34,7 +34,12 @@
     "title": "AI Prompts",
     "description": "Here you'll find some ready-to-use prompts for your everyday work",
     "promptLabel": "Prompt",
-    "uploadPhotoNotice": "Upload a photo with this prompt",
+    "uploadPhotoNotice": "Upload your photo with this prompt",
+    "selectGender": "Select a version",
+    "genderRequired": "Choose a version to copy the prompt",
+    "selectGenderPlaceholder": "Select Feminine or Masculine to see the prompt",
+    "fillDetails": "Personalize",
+    "fillRequired": "Fill in all fields to copy",
     "chatgpt-no-pain-no-gain": {
       "title": "No Pain, No Gain",
       "description": "Transform your gym photo into a fun, illustrated artwork with chibi mini versions of yourself and motivational handwritten phrases.",
