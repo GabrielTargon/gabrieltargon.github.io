@@ -8,6 +8,9 @@ on:
     branches:
       - main
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 permissions:
   contents: write
   pages: write
@@ -29,8 +32,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Lint
+        run: npm run lint
+
       - name: Run tests
         run: npm run test
+
+      - name: Build
+        run: npm run build
 
   deploy:
     runs-on: ubuntu-latest
