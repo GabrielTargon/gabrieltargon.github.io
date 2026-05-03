@@ -138,8 +138,6 @@ GitHub Actions (`.github/workflows/deploy.yml`) builds and deploys to GitHub Pag
 
 The workflow also runs lint + tests + build on every PR to `main` — all checks must pass before merging.
 
-`FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true` is set at workflow level to opt into Node.js 24 for actions (required before June 2026, when Node 20 is removed from runners).
-
 The `public/404.html` + `sessionStorage` redirect in `App.tsx` handles SPA routing on GitHub Pages — do not remove or break this mechanism.
 
 Work on `develop`, merge to `main` via PR.
