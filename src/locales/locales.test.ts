@@ -49,8 +49,8 @@ describe('every prompt has complete translation keys', () => {
 
   it('gender-variant prompts have textFeminine and textMasculine (not text)', () => {
     for (const prompt of prompts.filter((p) => p.variants === 'gender')) {
-      const enP = (en.prompts as Record<string, Record<string, string>>)[prompt.id];
-      const ptP = (ptBr.prompts as Record<string, Record<string, string>>)[prompt.id];
+      const enP = (en.prompts as unknown as Record<string, Record<string, string>>)[prompt.id];
+      const ptP = (ptBr.prompts as unknown as Record<string, Record<string, string>>)[prompt.id];
 
       expect(enP?.textFeminine, `en.json prompts.${prompt.id}.textFeminine`).toBeTruthy();
       expect(enP?.textMasculine, `en.json prompts.${prompt.id}.textMasculine`).toBeTruthy();
@@ -62,8 +62,8 @@ describe('every prompt has complete translation keys', () => {
 
   it('non-variant prompts have text (not textFeminine/textMasculine)', () => {
     for (const prompt of prompts.filter((p) => !p.variants)) {
-      const enP = (en.prompts as Record<string, Record<string, string>>)[prompt.id];
-      const ptP = (ptBr.prompts as Record<string, Record<string, string>>)[prompt.id];
+      const enP = (en.prompts as unknown as Record<string, Record<string, string>>)[prompt.id];
+      const ptP = (ptBr.prompts as unknown as Record<string, Record<string, string>>)[prompt.id];
 
       expect(enP?.text, `en.json prompts.${prompt.id}.text`).toBeTruthy();
       expect(ptP?.text, `pt-br.json prompts.${prompt.id}.text`).toBeTruthy();
