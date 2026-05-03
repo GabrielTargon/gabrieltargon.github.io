@@ -34,7 +34,12 @@
     "title": "Prompts de IA",
     "description": "Aqui você encontra alguns prompts prontos para utilizar no seu dia a dia",
     "promptLabel": "Prompt",
-    "uploadPhotoNotice": "Suba uma foto ao usar esse prompt",
+    "uploadPhotoNotice": "Suba uma foto sua ao usar esse prompt",
+    "selectGender": "Selecione uma versão",
+    "genderRequired": "Escolha uma versão para copiar o prompt",
+    "selectGenderPlaceholder": "Selecione Feminino ou Masculino para ver o prompt",
+    "fillDetails": "Personalize",
+    "fillRequired": "Preencha todos os campos para copiar",
     "chatgpt-no-pain-no-gain": {
       "title": "No Pain, No Gain",
       "description": "Transforme sua foto de academia em uma arte ilustrada divertida com mini versões chibi de você mesmo e frases motivacionais escritas à mão.",
